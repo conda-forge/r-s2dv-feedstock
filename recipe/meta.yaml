@@ -32,6 +32,7 @@ requirements:
     - r-abind
     - r-bigmemory
     - r-easyncdf
+    - r-easyverification
     - r-mapproj
     - r-maps
     - r-multiapply >=2.1.1
@@ -45,6 +46,7 @@ requirements:
     - r-abind
     - r-bigmemory
     - r-easyncdf
+    - r-easyverification
     - r-mapproj
     - r-maps
     - r-multiapply >=2.1.1
