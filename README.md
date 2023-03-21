@@ -1,11 +1,11 @@
-About r-s2dv
-============
+About r-s2dv-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-s2dv-feedstock/blob/main/LICENSE.txt)
 
 Home: https://earth.bsc.es/gitlab/es/s2dv/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-s2dv-feedstock/blob/main/LICENSE.txt)
 
 Summary: The advanced version of package 's2dverification'. It is intended for 'seasonal to decadal' (s2d) climate forecast verification, but it can also be used in other kinds of forecasts or general climate analysis. This package is specially designed for the comparison between the experimental and observational datasets. The functionality of the included functions covers from data retrieval, data post-processing, skill scores against observation, to visualization. Compared to 's2dverification', 's2dv' is more compatible with the package 'startR', able to use multiple cores for computation and handle multi-dimensional arrays with a higher flexibility.
 
