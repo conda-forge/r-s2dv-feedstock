@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/s2dv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/s2dv/s2dv_{{ version }}.tar.gz
-  sha256: e968ba08bab2923068c7bb91a57fa44de64a5babcbdd5a09fb52bac1b2cca7f7
+  sha256: 8f5349db5477aef71d8cb7efac806ec90984baee26aa8506fd0645dc5a9bf819
 
 build:
   merge_build_host: true  # [win]
