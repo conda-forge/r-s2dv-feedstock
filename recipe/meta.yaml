@@ -60,13 +60,13 @@ test:
 
 about:
   home: https://earth.bsc.es/gitlab/es/s2dv/
-  license: Apache-2.0
+  license: GPL-3.0-only
   summary: The advanced version of package 's2dverification'. It is intended for 'seasonal to decadal' (s2d) climate forecast verification, but it can also be used in other kinds of forecasts or general climate analysis. This package is specially designed for the comparison between the experimental and observational datasets.
     The functionality of the included functions covers from data retrieval, data post-processing, skill scores against observation, to visualization. Compared to 's2dverification', 's2dv' is more compatible with the package 'startR', able to use multiple cores for computation and handle multi-dimensional arrays with a higher
     flexibility.
-  license_family: APACHE
+  license_family: GPL
   license_file:
-    - LICENSE-2.0.txt
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
