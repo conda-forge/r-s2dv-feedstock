@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/s2dv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/s2dv/s2dv_{{ version }}.tar.gz
-  sha256: 7f3e7ef808f541fad4ca6baa3377a416613604eb6bc319c34f8c9427bd0de5b5
+  sha256: a2d0da1a764e4ea6fcb28e93062e2a3b7982ec148aaf4353c727d1ec6eff4de2
 
 build:
   number: 0
