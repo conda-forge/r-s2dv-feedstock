@@ -1,4 +1,4 @@
-{% set version = "2.2.1" %}
+{% set version = "2.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/s2dv_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/s2dv/s2dv_{{ version }}.tar.gz
-  sha256: a2d0da1a764e4ea6fcb28e93062e2a3b7982ec148aaf4353c727d1ec6eff4de2
+  sha256: 7909f65aceafe8c46e7bd6eb704246b1a7ff0289a977ae437e4fcdbd020f2798
 
 build:
   number: 0
@@ -59,9 +59,9 @@ test:
 about:
   home: https://earth.bsc.es/gitlab/es/s2dv/
   license: GPL-3.0-only
-  summary: The advanced version of package 's2dverification'. It is intended for 'seasonal to decadal' (s2d) climate forecast verification, but it can also be used in other kinds of forecasts or general climate analysis. This package is specially designed for the comparison between the experimental and observational datasets.
-    The functionality of the included functions covers from data retrieval, data post-processing, skill scores against observation, to visualization. Compared to 's2dverification', 's2dv' is more compatible with the package 'startR', able to use multiple cores for computation and handle multi-dimensional arrays with a higher
-    flexibility.
+  summary: The advanced version of package 's2dverification'. It is intended for 'seasonal to decadal' (s2d) climate forecast verification, but it can also be used in other kinds of forecasts or general climate analysis. This package is specially designed for the comparison between the experimental and observational 
+    datasets. The functionality of the included functions covers from data retrieval, data post-processing, skill scores against observation, to visualization. Compared to 's2dverification', 's2dv' is more compatible with the package 'startR', able to use multiple cores for computation and handle multi-dimensional 
+    arrays with a higher flexibility.
   license_family: GPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
