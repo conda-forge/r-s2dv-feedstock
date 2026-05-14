@@ -7,7 +7,7 @@ Home: https://earth.bsc.es/gitlab/es/s2dv/
 
 Package license: GPL-3.0-only
 
-Summary: The advanced version of package 's2dverification'. It is intended for 'seasonal to decadal' (s2d) climate forecast verification, but it can also be used in other kinds of forecasts or general climate analysis. This package is specially designed for the comparison between the experimental and observational datasets. The functionality of the included functions covers from data retrieval, data post-processing, skill scores against observation, to visualization. Compared to 's2dverification', 's2dv' is more compatible with the package 'startR', able to use multiple cores for computation and handle multi-dimensional arrays with a higher flexibility.
+Summary: An advanced version of package 's2dverification'. Intended for seasonal to decadal (s2d) climate forecast verification, but also applicable to other types of forecasts or general climate analysis. This package is specifically designed for comparing experimental and observational datasets. It provides functionality for data retrieval, post-processing, skill score computation against observations, and visualization. Compared to 's2dverification', 's2dv' is more compatible with the package 'startR', able to use multiple cores for computation and handle multi-dimensional arrays with a higher flexibility. The Climate Data Operators (CDO) version used in development is 1.9.8. Implements methods described in Wilks (2011) <doi:10.1016/B978-0-12-385022-5.00008-7>, DelSole and Tippett (2016) <doi:10.1175/MWR-D-15-0218.1>, Kharin et al. (2012) <doi:10.1029/2012GL052647>, Doblas-Reyes et al. (2003) <doi:10.1007/s00382-003-0350-4>.
 
 Current build status
 ====================
